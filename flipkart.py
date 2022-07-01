@@ -10,7 +10,7 @@ stemmer = nltk.SnowballStemmer("english")
 from nltk.corpus import stopwords
 stopword=set(stopwords.words('english'))
 
-data = pd.read_csv("C:/Users/Suresh BA/Downloads/sample_data.csv")
+data = pd.read_csv("sample_data.csv")
 REVIEW="review"
 RATING="rating"
 
